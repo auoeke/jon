@@ -1,0 +1,14 @@
+plugins {
+    id("wheel-fabric").version("latest.integration")
+}
+
+group = "net.auoeke"
+version = "0.0.0"
+
+tasks.withType(Jar) {
+    exclude("test")
+}
+
+dependencies {
+    runtimeOnly(sourceSets.test.output)
+}

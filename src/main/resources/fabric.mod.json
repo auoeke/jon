@@ -1,0 +1,7 @@
+{
+    "schemaVersion": 1,
+    "id": "jon",
+    "version": "${version}",
+    "authors": ["auoeke"],
+    "mixins": ["jon.mixins.json"]
+}

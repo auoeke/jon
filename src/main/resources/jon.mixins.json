@@ -1,0 +1,6 @@
+{
+    "package": "net.auoeke.jon.mixin",
+    "compatibilityLevel": "JAVA_16",
+    "mixins": [],
+    "client": ["TranslationStorageMixin"]
+}

@@ -1,0 +1,8 @@
+{
+    "schemaVersion": 1,
+    "id": "test",
+    "version": "123",
+    "entrypoints": {
+        "preLaunch": ["test.Test::init"]
+    }
+}
